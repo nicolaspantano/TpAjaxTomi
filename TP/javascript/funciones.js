@@ -140,7 +140,7 @@ function AdministrarValidaciones() {
     }
 }
 function AdministrarValidacionesLogin() {
-    AdministrarSpanError("DniError", ValidarRangoNumerico(1000000, 55000000, parseInt(document.getElementById("txtDni").value)));
+    AdministrarSpanError("DniError", ValidarRangoNumerico(10000000, 55000000, parseInt(document.getElementById("txtDni").value)));
     AdministrarSpanError("DniError", ValidarCamposVacios("txtDni"));
     AdministrarSpanError("ApellidoError", ValidarCamposVacios("txtApellido"));
     if (!VerificarValidacionesLogin()) {

@@ -127,7 +127,7 @@ function AdministrarValidaciones():void
 
 function AdministrarValidacionesLogin():void
 {
-    AdministrarSpanError("DniError",ValidarRangoNumerico(1000000,55000000,parseInt((<HTMLInputElement>document.getElementById("txtDni")).value)));
+    AdministrarSpanError("DniError",ValidarRangoNumerico(10000000,55000000,parseInt((<HTMLInputElement>document.getElementById("txtDni")).value)));
     AdministrarSpanError("DniError",ValidarCamposVacios("txtDni"));   
     AdministrarSpanError("ApellidoError",ValidarCamposVacios("txtApellido"));
 

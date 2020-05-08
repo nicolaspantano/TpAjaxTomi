@@ -21,7 +21,7 @@
             <tr>
                 <td>DNI:</td>
                 <td style="text-align:left;padding-left:20px"> 
-                <input type="number" name="txtDni" id="txtDni" min="1000000" max="55000000"><span id="DniError" style="display:none;">*</span>
+                <input type="number" name="txtDni" id="txtDni" min="10000000" max="55000000"><span id="DniError" style="display:none;">*</span>
                 </td>
             </tr>
             <tr>
